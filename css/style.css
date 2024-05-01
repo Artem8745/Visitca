@@ -422,12 +422,15 @@ body {
 .services .body-services {
   background-color: #2C2C2E;
   position: relative;
+  text-align: center;
 }
 .services .body-services::after {
   content: url("../img/FRONTEND.png");
   position: absolute;
   font-weight: 500;
-  left: 20%;
+  left: 0;
+  right: 0;
+  width: 100%;
   z-index: 1;
   top: calc(var(--scrollTop) / 2);
 }
