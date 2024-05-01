@@ -22,7 +22,7 @@ body{
     background-color: #2C2C2E;
     font-family: "Montserrat", sans-serif;
 
-    background: url("/img/fon.jpg");
+    background: url("../img/fon.jpg");
     background-attachment: fixed;
 }
 
@@ -36,7 +36,7 @@ body{
 }
 
 .one-page{
-    background: url('/img/fon.jpg') 0 0 no-repeat;
+    background: url('../img/fon.jpg') 0 0 no-repeat;
     min-height: 110vh;
     padding-top: 10px;
     background-attachment: fixed;
@@ -197,7 +197,7 @@ body{
         position: relative;
 
         &::after{
-            content: url('/img/FRONTEND.png');
+            content: url('../img/FRONTEND.png');
             position: absolute;
             font-weight: 500;
             left: 20%;
